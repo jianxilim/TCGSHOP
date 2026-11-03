@@ -1,0 +1,113 @@
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.success-box {
+    background: #e8f5e9;
+    border-left: 6px solid #4caf50;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.success-box h1 {
+    color: #2e7d32;
+    margin: 0 0 10px 0;
+    font-size: 28px;
+}
+
+.success-box p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.order-summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+}
+
+.order-summary-table th {
+    text-align: left;
+    background-color: #f1f1f1;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #666;
+}
+
+.order-summary-table td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.grand-total {
+    font-size: 20px;
+    color: #e53935;
+    text-align: right;
+}
+
+.shipping-info {
+    background: #fffcf0;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ffe082;
+    line-height: 1.8;
+}
+
+.actions {
+    margin-top: 40px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn-history {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-shop {
+    border: 1px solid #007bff;
+    color: #007bff;
+    background: transparent;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    transform: translateY(-2px);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.grand-total-row td {
+    border-bottom: none;
+}

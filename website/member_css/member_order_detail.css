@@ -1,0 +1,146 @@
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+h1 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 15px; margin-bottom: 20px; }
+
+
+.status-banner {
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.status-pending { background: #fff4e5; color: #e67e22; }
+.status-paid { background: #e8f5e9; color: #27ae60; }
+.status-cancel_pending { background: #fff3cd; color: #856404; border: 1px solid #ffeeba; }
+.status-shipped { background: #e3f2fd; color: #3498db; }
+.status-completed { background: #f8f9fa; color: #6c757d; }
+.status-cancelled { background: #f8d7da; color: #721c24; }
+
+
+.address-container {
+    margin-bottom: 25px;
+    padding: 15px;
+    background: #fdfdfd;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+.address-container h4 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.address-text {
+    color: #666;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+
+.detail-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.detail-table th {
+    text-align: left;
+    padding: 12px;
+    background: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.detail-table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+.label-cell {
+    padding-top: 20px !important;
+}
+
+.total-row {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #27ae60;
+    text-align: right;
+    padding-top: 20px !important;
+}
+
+
+.cancel-box {
+    background: #fdfdfe;
+    border: 1px dashed #ced4da;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.cancel-box h3 { color: #dc3545; margin-bottom: 15px; }
+
+.helper-text {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+
+.status-pending-approval {
+    background: #fff9e6 !important;
+    border-style: solid !important;
+    border-color: #ffeeba !important;
+}
+
+.pending-title {
+    color: #856404 !important;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin: 10px 0;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.btn-submit-cancel {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-submit-cancel:hover { background: #c82333; }
+
+
+.msg { padding: 15px; border-radius: 6px; margin-bottom: 20px; }
+.success-msg { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+.error-msg { background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }

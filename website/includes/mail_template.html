@@ -1,0 +1,19 @@
+<div style="font-family: Arial; border: 1px solid #ddd; padding: 20px; border-radius: 10px;">
+    <h2 style="color: #27ae60; border-bottom: 2px solid #27ae60; padding-bottom: 10px;">New Order Received!</h2>
+    <p><b>Order ID:</b> #{{ORDER_ID}}</p>
+    <p><b>Customer:</b> {{CUSTOMER_NAME}}</p>
+    
+    <table style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+        <thead>
+            <tr>
+                <th style="background: #f4f4f4; padding: 10px; text-align: left; border: 1px solid #eee;">Product</th>
+                <th style="background: #f4f4f4; padding: 10px; text-align: left; border: 1px solid #eee;">Qty</th>
+                <th style="background: #f4f4f4; padding: 10px; text-align: left; border: 1px solid #eee;">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{ORDER_LIST}}
+        </tbody>
+    </table>
+    <h3 style="text-align: right;">Total: RM {{TOTAL}}</h3>
+</div>

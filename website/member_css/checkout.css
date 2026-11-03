@@ -1,0 +1,108 @@
+
+.checkout-container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+
+.summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.summary-table th {
+    background: #f8f9fa;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid #dee2e6;
+    color: #34495e;
+}
+
+.summary-table td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.total-section {
+    background: #fdfdfe;
+    text-align: right;
+}
+
+.grand-total {
+    font-size: 1.4rem;
+    color: #27ae60;
+    font-weight: bold;
+}
+
+/* 表单部分 */
+.shipping-info {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+    resize: vertical;
+}
+
+
+.btn-paypal {
+    display: inline-block;
+    width: 100%;
+    background: #ffc439; 
+    color: #2c2e2f;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-align: center;
+}
+
+.btn-paypal:hover {
+    background: #f4b400;
+}
+
+.btn-paypal i {
+    margin-right: 8px;
+}
+
+.error-banner {
+    background: #fee2e2;
+    color: #b91c1c;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #fecaca;
+}

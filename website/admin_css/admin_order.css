@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-container {
+    width: 95%;
+    max-width: 1300px;
+    margin: 40px auto;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.order-table th {
+    background: #2c3e50; 
+    color: #ecf0f1;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.order-table td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    color: #444;
+    vertical-align: middle;
+}
+
+.order-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+
+.status-pill {
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.status-pending { background: #f1c40f; color: #fff; }
+.status-paid { background: #27ae60; color: #fff; }
+.status-shipped { background: #2980b9; color: #fff; }
+.status-completed { background: #8e44ad; color: #fff; }
+.status-cancel_pending { background: #e67e22; color: #fff; }
+.status-cancelled { background: #95a5a6; color: #fff; }
+
+
+.btn {
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+.btn-view { background: #34495e; }
+.btn-ship { background: #2980b9; }
+.btn-done { background: #27ae60; }
+.btn-approve { background: #e67e22; }
+
+
+.price-text {
+    font-weight: bold;
+    color: #2c3e50;
+}
