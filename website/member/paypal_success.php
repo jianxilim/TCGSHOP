@@ -31,7 +31,6 @@ function getAccessToken() {
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); 
     $result = curl_exec($ch);
     $data = json_decode($result, true);
-    curl_close($ch);
     return $data['access_token'] ?? null;
 }
 
@@ -51,7 +50,6 @@ function capturePayment($orderId) {
     ]);
     $result = curl_exec($ch);
     $response = json_decode($result, true);
-    curl_close($ch);
     return $response;
 }
 
