@@ -3,8 +3,8 @@
 define('PAYPAL_MODE', 'sandbox');  
 
 
-define('PAYPAL_CLIENT_ID', 'AXTZbHOzw9XivAyKQPM_0Chh8dtXbhVPCmFUrNubTkAcodo49qqVuhRzegRXKZykq9fQ-w3xmr_kUyrI');      
-define('PAYPAL_CLIENT_SECRET', 'EGk6I_hzxaoBUorYOh_Qf2o5B1dgyhOUJRgd15Bo4v9LsqspL2gK92z9X1T6nqCGadEodxGplBUIePwh'); 
+define('PAYPAL_CLIENT_ID', 'Ad0tODP9qAXaWIHTOcjmC284d9IpJGQi_VwOrlSc1AwXjKpZeFLQOyswxsMNfkBWXFe5cQTt8ppwWvBd');      
+define('PAYPAL_CLIENT_SECRET', 'EJV2lOl9GnMsZMmoKVc8UhdEozxpdL2U_AqRrbdiCFQNQUi6axcl6Tdcz3rO1tnMnVhLpe4-Ks0fb73h'); 
 
 
 if (PAYPAL_MODE == 'sandbox') {

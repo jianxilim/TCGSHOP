@@ -83,14 +83,14 @@ function sendAdminOrderEmail($orderId, $total, $customerName, $items = []) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'jiedsobig@gmail.com'; 
+        $mail->Username   = 'testingacc111999@gmail.com'; 
         $mail->Password   = 'qykw mmzp pwlr mssu';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
         $mail->CharSet    = 'UTF-8';
 
-        $mail->setFrom('jiedsobig@gmail.com', 'Card Shop System');
-        $mail->addAddress('jiedsobig@gmail.com'); 
+        $mail->setFrom('testingacc111999@gmail.com', 'Card Shop System');
+        $mail->addAddress('testingacc111999@gmail.com'); 
 
         
         $order_list_html = '';
@@ -156,13 +156,13 @@ function sendCustomerOrderEmail($orderId, $total, $customerEmail, $customerName,
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'ingt01138@gmail.com'; 
-        $mail->Password   = 'fwsw glgk xwfx pywl';
+        $mail->Username   = 'testingacc111999@gmail.com'; 
+        $mail->Password   = 'losl afyy nujt vwlw';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
         $mail->CharSet    = 'UTF-8';
 
-        $mail->setFrom('ingt01138@gmail.com', 'Card Shop');
+        $mail->setFrom('testingacc111999@gmail.com', 'Card Shop');
         $mail->addAddress($customerEmail, $customerName);
 
         
